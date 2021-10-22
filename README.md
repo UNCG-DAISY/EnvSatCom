@@ -2,19 +2,19 @@
 
 ## Index
 
-* ![Intent](#intent)
-* ![Hardware](#hardware)
-  - ![External Controller](#external-controller)
-  - ![Modules](#modules)
-* ![Development Approach](#development_approach)
-  - ![Physical Assembly](#physical_assembly)
-  - !["Hello Artemis"](#hello_artemis)
-  - !["Hello GPS"](#hello_gps)
-  - !["Hello ARGOS"](#hello_argos)
-  - !["Artemis/Nano Swap](#artemisnano_swap)
-  - !["Data What?](#data_what)
-  - ![Let Them Eat PI](#let_them_eat_pi)
-* ![Resources](#resources)
+* [Intent](#intent)
+* [Hardware](#hardware)
+  - [External Controller](#external-controller)
+  - [Modules](#modules)
+* [Development Approach](#development_approach)
+  - [Physical Assembly](#physical_assembly)
+  - ["Hello Artemis"](#hello_artemis)
+  - ["Hello GPS"](#hello_gps)
+  - ["Hello ARGOS"](#hello_argos)
+  - ["Artemis/Nano Swap](#artemisnano_swap)
+  - ["Data What?](#data_what)
+  - [Let Them Eat PI](#let_them_eat_pi)
+* [Resources](#resources)
 
 ## Intent
 
