@@ -43,23 +43,23 @@ The Arduino Nano is optimal given the familiarity and availability of the family
 
 ### Modules
 
-#### ![ARGOS Transceiver Shield](https://www.sparkfun.com/products/17236)
+#### [ARGOS Transceiver Shield](https://www.sparkfun.com/products/17236)
 
 (pending write-up)
 
-#### ![GPS](https://www.sparkfun.com/products/15210)
+#### [GPS](https://www.sparkfun.com/products/15210)
 
 (pending write-up)
 
-#### ![SparkFun Qwiic Shield for Arduino Nano](https://www.sparkfun.com/products/16789)
+#### [SparkFun Qwiic Shield for Arduino Nano](https://www.sparkfun.com/products/16789)
 
 (pending write-up)
 
 #### Miscellaneous
 
-* ![SparkFun Qwiic Cable Kit](https://www.sparkfun.com/products/15081)
+* [SparkFun Qwiic Cable Kit](https://www.sparkfun.com/products/15081)
   - Qwiic connect cables are neccessary for connecting the GPS module to the Artemis
-* ![ARGOS Omnidirectional Antenna - 401MHz](https://www.sparkfun.com/products/17523)
+* [ARGOS Omnidirectional Antenna - 401MHz](https://www.sparkfun.com/products/17523)
   - The antenna is neccessary for the ARGOS transceiver to work properly. Per the device's documentation, it is possible that without the antenna, the reciever component of the transceiver shield can become damaged during operation.
 
 ## Development Approach
