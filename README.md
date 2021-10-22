@@ -4,7 +4,7 @@
 
 * ![Intent](#intent)
 * ![Hardware](#hardware)
-  - ![External Controller](#external_controller)
+  - ![External Controller](#external-controller)
   - ![Modules](#modules)
 * ![Development Approach](#development_approach)
   - ![Physical Assembly](#physical_assembly)
