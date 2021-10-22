@@ -34,8 +34,8 @@ For this specific research instance the idea is to have a Raspberry PI installed
 
 There are two controllers that will be tested throughout this research for this task:
 
-* ![SparkFun Thing Plus - Artemis](https://www.sparkfun.com/products/15574)
-* ![Arduino Nano Every](https://www.sparkfun.com/products/15590)
+* [SparkFun Thing Plus - Artemis](https://www.sparkfun.com/products/15574)
+* [Arduino Nano Every](https://www.sparkfun.com/products/15590)
 
 <p align="center"><img width="800" src="/Media/controllers.jpg"></br><em>Fig.2 - Both embedded controllers shown in scale relative to each other.</em></p>
 
