@@ -2,7 +2,19 @@
 
 ## Index
 
-* ![Intent](intent)
+* ![Intent](#intent)
+* ![Hardware](#hardware)
+  - ![External Controller](#external_controller)
+  - ![Modules](#modules)
+* ![Development Approach](#development_approach)
+  - ![Physical Assembly](#physical_assembly)
+  - !["Hello Artemis"](#hello_artemis)
+  - !["Hello GPS"](#hello_gps)
+  - !["Hello ARGOS"](#hello_argos)
+  - !["Artemis/Nano Swap](#artemisnano_swap)
+  - !["Data What?](#data_what)
+  - ![Let Them Eat PI](#let_them_eat_pi)
+* ![Resources](#resources)
 
 ## Intent
 
@@ -88,7 +100,7 @@ Goal: Define a C library for UNCG research needs that allows an abstract data bl
 
 (pending write-up)
 
-#### "Hello Serial"
+#### Let Them Eat PI
 
 Goal: Define functionality on the embedded controller so that it listens for serial input coming in from the Raspberry PI and upon receiveing properly formatted input data, the embedded device sends the data to the ARGOS network.
 
