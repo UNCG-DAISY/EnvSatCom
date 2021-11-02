@@ -43,11 +43,11 @@ The Arduino Nano is optimal given the familiarity and availability of the family
 
 ### Modules
 
-#### [GPS](https://www.sparkfun.com/products/15210)
+#### [SparkFun GPS Breakout - Chip Antenna, SAM-M8Q](https://www.sparkfun.com/products/15210)
 
 The GPS module is necessary so that GPS positioning info can be used to discern the closest ARGOS Stellite to connect to for the best connection. This module uses a Qwiic connection to connect to the SparkFun board. If the Nano is used instead of the Artemis, then a qwiic connection shield needs to be used so to connect the GPS module. That, or a seperate GPS module may be used.
 
-#### [ARGOS Transceiver Shield](https://www.sparkfun.com/products/17236)
+#### [ARGOS Satellite Transceiver Shield - ARTIC R2](https://www.sparkfun.com/products/17236)
 
 (pending write-up)
 
