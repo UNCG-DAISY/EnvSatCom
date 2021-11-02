@@ -119,3 +119,17 @@ Goal: Define functionality on the embedded controller so that it listens for ser
 
 ## Resources
 
+### GPS
+
+- [SparkFun GPS Breakout Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide?_ga=2.165370751.1191664431.1635884012-636933122.1635884012)
+- [SAM-M8Q Datasheet](https://cdn.sparkfun.com/assets/4/e/b/9/f/SAM-M8Q_DataSheet__UBX-16012619_.pdf)
+- [SAM-M8Q Hardware Integration Manual](https://cdn.sparkfun.com/assets/5/d/d/2/3/SAM-M8Q_HardwareIntegrationManual__UBX-16018358_.pdf)
+- [u-blox GNSS Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)
+- [SparkFun GPS Breakout Hardware Git Repo](https://github.com/sparkfun/SparkFun_u-blox_SAM-M8Q)
+
+### ARGOS Transceiver Shield
+
+- [ARGOS Transceiver Schematic](https://cdn.sparkfun.com/assets/6/9/0/f/9/SparkFun_ARGOS_ARTIC_R2_Shield.pdf)
+- [ARGOS Chipset Info Sheet](https://cdn.sparkfun.com/assets/6/9/0/f/9/SparkFun_ARGOS_ARTIC_R2_Shield.pdf)
+- [ARTIC R2 User Datasheet v1.1](https://cdn.sparkfun.com/assets/c/0/8/d/4/ENA303_ARTIC_R2_User_Datasheet_1v10.pdf)
+- [ARGOS Hardware Git Repo](https://github.com/sparkfunX/ARGOS-ARTIC-R2-Shield)
