@@ -62,11 +62,12 @@ The Arduino Nano has no Qwiic connections so a shield will be necessary if the S
 * [ARGOS Omnidirectional Antenna - 401MHz](https://www.sparkfun.com/products/17523)
   - The antenna is neccessary for the ARGOS transceiver to work properly. Per the device's documentation, it is possible that without the antenna, the reciever component of the transceiver shield can become damaged during operation.
 
-### Accessories
+### Accessories/Consumables
 
 * [4PCS Breadboards Kit](https://www.amazon.com/dp/B07DL13RZH/ref=cm_sw_r_apan_glt_fabc_0WP1FVKA3A0C24NCWBNY?_encoding=UTF8&psc=1)
 * [22 Guage Wire](https://www.amazon.com/dp/B00DRGAQ0I/ref=cm_sw_r_apan_glt_fabc_9SQN1RBHWD7QPP8KB1K8?_encoding=UTF8&psc=1)
 * [Dupont Cable Pack](https://www.amazon.com/dp/B01EV70C78/ref=cm_sw_r_apan_glt_fabc_NQ8A65M8068WQ4MAK1M0)
+* [Leaded Solder](https://www.amazon.com/dp/B076QF1Y85/ref=cm_sw_r_apan_glt_fabc_EG9E51PZEE3Z2TRBPY2K)
 
 ### Tools
 
