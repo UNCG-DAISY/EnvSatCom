@@ -119,6 +119,13 @@ Goal: Define functionality on the embedded controller so that it listens for ser
 
 ## Resources
 
+### Artemis
+
+- [Artemis Product Page](https://www.sparkfun.com/products/15574)
+- [Artemis Hookup Guide](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-artemis-thing-plus)
+- [Artemis Resource Guide](https://cdn.sparkfun.com/assets/8/7/5/3/f/Artemis_Integration_Guide.pdf)
+- [Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
+
 ### GPS
 
 - [SparkFun GPS Breakout Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide?_ga=2.165370751.1191664431.1635884012-636933122.1635884012)
