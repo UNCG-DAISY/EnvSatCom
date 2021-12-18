@@ -79,6 +79,8 @@ The Arduino Nano has no Qwiic connections so a shield will be necessary if the S
 
 Goal: Assemble all modules together.
 
+The Artemis Sparkfun board will be connected to the GPS breakout module via qwiic cable, using I2C protocol, while the transceiver shield uses the SPI protocol.
+
 (pending write-up)
 
 #### "Hello Artemis"
