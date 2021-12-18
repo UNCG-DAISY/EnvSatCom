@@ -129,6 +129,7 @@ Goal: Define functionality on the embedded controller so that it listens for ser
 
 ### ARGOS Transceiver Shield
 
+- [ARGOS Arduino Library](https://github.com/sparkfun/SparkFun_ARGOS_ARTIC_R2_Arduino_Library)
 - [ARGOS Transceiver Schematic](https://cdn.sparkfun.com/assets/6/9/0/f/9/SparkFun_ARGOS_ARTIC_R2_Shield.pdf)
 - [ARGOS Chipset Info Sheet](https://cdn.sparkfun.com/assets/6/9/0/f/9/SparkFun_ARGOS_ARTIC_R2_Shield.pdf)
 - [ARTIC R2 User Datasheet v1.1](https://cdn.sparkfun.com/assets/c/0/8/d/4/ENA303_ARTIC_R2_User_Datasheet_1v10.pdf)
