@@ -79,7 +79,25 @@ The Arduino Nano has no Qwiic connections so a shield will be necessary if the S
 
 Goal: Assemble all modules together.
 
-The Artemis Sparkfun board will be connected to the GPS breakout module via qwiic cable, using I2C protocol, while the transceiver shield uses the SPI protocol.
+The Artemis Sparkfun board will be connected to the GPS breakout module via qwiic cable, using I2C protocol, while the transceiver shield uses the SPI protocol. Given that they differ, the table below shows the equivalent SPI pins labeled on both the board and shield.
+
+|SPI Equivalent|Artemis Board|ARGOS Shield|
+|---|----|----|
+|MISO|MISO|CIPO|
+|MOSI|MOSI|COPI|
+|SCK|SCK|SCLK|
+|NSS|(unknown)|CS|
+
+Thus, the connections are as follows:
+
+|Artemis Board|ARGOS Shield|
+|---|----|
+|MISO|COPI|
+|MOSI|CIPO|
+|SCK|SCLK|
+|(unknown)|CS|
+
+Currently I cannot determine the NSS equivalent pin on the Artemis board. This pin is necessary to let peripheral devices know that they are being selected. It is possible that the intent here is for the user to define their own NSS pins via the available digital pins. For example, one might assign digital pin 4 as the NSS pin for one device, and digital pin 5 as the NSS pin for another device.
 
 (pending write-up)
 
@@ -127,6 +145,7 @@ Goal: Define functionality on the embedded controller so that it listens for ser
 - [Artemis Hookup Guide](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-sparkfun-artemis-thing-plus)
 - [Artemis Resource Guide](https://cdn.sparkfun.com/assets/8/7/5/3/f/Artemis_Integration_Guide.pdf)
 - [Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
+- [Artemis Schematic](https://cdn.sparkfun.com/assets/6/f/0/5/9/ArtemisThingPlusSchematic.pdf)
 
 ### GPS
 
