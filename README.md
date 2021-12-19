@@ -86,7 +86,7 @@ The Artemis Sparkfun board will be connected to the GPS breakout module via qwii
 |MISO|MISO|CIPO|
 |MOSI|MOSI|COPI|
 |SCK|SCK|SCLK|
-|NSS|(unknown)|CS|
+|NSS||CS|
 
 Thus, the connections are as follows:
 
@@ -95,9 +95,13 @@ Thus, the connections are as follows:
 |MISO|COPI|
 |MOSI|CIPO|
 |SCK|SCLK|
-|(unknown)|CS|
+||CS|
 
-Currently I cannot determine the NSS equivalent pin on the Artemis board. This pin is necessary to let peripheral devices know that they are being selected. It is possible that the intent here is for the user to define their own NSS pins via the available digital pins. For example, one might assign digital pin 4 as the NSS pin for one device, and digital pin 5 as the NSS pin for another device.
+The Artemis board will use digital pin 4 as the slave select pin to controll the 'controller select' pin on the ARGOS shield.
+
+<p align="center"><img width="800" src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"></br><em>Fig.3 - Layout of modules and their connections.</em></p>
+
+<p align="center"><img width="800" src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"></br><em>Fig.4 - Modules assembled onto a Breadboard.</em></p>
 
 (pending write-up)
 
@@ -164,3 +168,7 @@ Goal: Define functionality on the embedded controller so that it listens for ser
 - [ARGOS Chipset Info Sheet](https://cdn.sparkfun.com/assets/6/9/0/f/9/SparkFun_ARGOS_ARTIC_R2_Shield.pdf)
 - [ARTIC R2 User Datasheet v1.1](https://cdn.sparkfun.com/assets/c/0/8/d/4/ENA303_ARTIC_R2_User_Datasheet_1v10.pdf)
 - [ARGOS Hardware Git Repo](https://github.com/sparkfunX/ARGOS-ARTIC-R2-Shield)
+
+### Miscellaneous
+
+-[Arduino SPI Reference](https://www.arduino.cc/en/reference/SPI)
