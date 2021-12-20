@@ -171,4 +171,4 @@ Goal: Define functionality on the embedded controller so that it listens for ser
 
 ### Miscellaneous
 
--[Arduino SPI Reference](https://www.arduino.cc/en/reference/SPI)
+- [Arduino SPI Reference](https://www.arduino.cc/en/reference/SPI)
