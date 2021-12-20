@@ -101,7 +101,7 @@ The Artemis board will use digital pin 4 as the slave select pin to controll the
 
 <p align="center"><img width="800" src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"></br><em>Fig.3 - Layout of modules and their connections.</em></p>
 
-<p align="center"><img width="800" src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"></br><em>Fig.4 - Modules assembled onto a Breadboard.</em></p>
+<p align="center"><img width="800" src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"></br><em>Fig.4 - After soldering the Headers onto the modules, they can be assembled onto a Breadboard and connected per the diagram.</em></p>
 
 (pending write-up)
 
