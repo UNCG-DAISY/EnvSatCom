@@ -79,7 +79,7 @@ The Arduino Nano has no Qwiic connections so a shield will be necessary if the S
 
 Goal: Assemble all modules together.
 
-The Artemis Sparkfun board will be connected to the GPS breakout module via qwiic cable, using I2C protocol, while the transceiver shield uses the SPI protocol. Given that they differ, the table below shows the equivalent SPI pins labeled on both the board and shield.
+The Artemis Sparkfun board will be connected to the GPS breakout module via qwiic cable, using I2C protocol, while the transceiver shield uses the SPI protocol. Given that they differ, the table below shows the equivalent SPI pins labeled on both the board and shield. Even though the transceiver shield is designed to be applied directly on top of the artemis, it will not be connected as such because 1. it will fascilitate familiarity with the connections and 2. the end goal is to connect the shield with the Arduino Nano, in which case the shield connection becomes useless.
 
 |SPI Equivalent|Artemis Board|ARGOS Shield|
 |---|----|----|
